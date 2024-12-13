@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Project Four Sound Design Samples">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Project Four | Sound Designer</title>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="circle-transition"></div>
+
+    <header class="site-header">
+        <nav class="nav-bar">
+            <a class="nav-logo" href="index.html">TD</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="project-detail neumorphism">
+            <h1>DadsDayOut</h1>
+            <p class="project-date">Created: September 2023</p>
+            <video class="project-video" controls>
+                <source src="videos/project4-video.mp4" type="video/mp4">
+            </video>
+
+            <div class="audio-section">
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 03:30</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Main Music</p>
+                    <audio>
+                        <source src="audio/project4-maintheme.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <!-- Repeat similar structure for other tracks -->
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 02:15</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Lobby Music</p>
+                    <audio>
+                        <source src="audio/project4-lobby.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 01:10</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Gameboy Music</p>
+                    <audio>
+                        <source src="audio/project4-Gameboy.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 00:45</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">End Game Music</p>
+                    <audio>
+                        <source src="audio/project4-EndGame.wav" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+
+            <p class="project-description">
+                "Dad’s Day Out" was designed and developed by a team of two designers, three artists, and one engineer. Keeping our schedule very tight (only three weeks), our goal was to make a game about fatherhood. This game aims to help you learn something about what parenting is all about and make it a pleasurable experience. By making fun gameplay mechanics and storytelling we wanted to illustrate the parenting experience by providing gamers with both an engaging and emotional experience on these critical parts of life.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <p>&copy; 2024 Timothy Darcy. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

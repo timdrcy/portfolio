@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Project Five Sound Design Samples">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Project Five | Sound Designer</title>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="circle-transition"></div>
+
+    <header class="site-header">
+        <nav class="nav-bar">
+            <a class="nav-logo" href="index.html">TD</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="project-detail neumorphism">
+            <h1>Demure</h1>
+            <p class="project-date">Created: November 2023</p>
+            <video class="project-video" controls>
+                <source src="videos/project5-video.mp4" type="video/mp4">
+            </video>
+
+            <div class="audio-section">
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 03:30</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Boss Music</p>
+                    <audio>
+                        <source src="audio/project5-BossTheme.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <!-- Repeat similar structure for other tracks -->
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 02:15</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Sunflowerfields Music</p>
+                    <audio>
+                        <source src="audio/project5-Sunflowerfields.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 01:10</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">ClockworkGarden Music</p>
+                    <audio>
+                        <source src="audio/project5-ClockworkGarden.wav" type="audio/mp3">
+                    </audio>
+                </div>
+
+                <div class="audio-player neumorphism-light hover-glow">
+                    <div class="disc-container">
+                        <div class="disc"></div>
+                    </div>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <div class="time-display">00:00 / 00:45</div>
+                    <button class="play-button">Play</button>
+                    <p class="track-title">Observatory Music</p>
+                    <audio>
+                        <source src="audio/project5-ObservatoryTheme.wav" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+
+            <p class="project-description">
+                Together, with the help of two designers, three artists, and one engineer, we wrote the story of Lily. She’s a young girl who’s been neglected and abused, finding solace in nightmares about animals that embody her traumas and fears. Through a voice like her grandfather’s, she fights off these beasts, finding her own strength. This game combines storytelling with Metroidvania-style gameplay to take players on an emotional journey of discovery and triumph.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <p>&copy; 2024 Timothy Darcy. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
