@@ -1,7 +1,7 @@
 // =========================================
 // INITIAL SETUP & INTERACTIONS
 // =========================================
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => 
     const heroTitle = document.querySelector('.hero-title');
     const heroSubtitle = document.querySelector('.hero-subtitle');
     const sections = document.querySelectorAll('.section-hidden');
